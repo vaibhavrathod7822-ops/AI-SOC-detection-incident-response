@@ -1,0 +1,72 @@
+[
+  {
+    "event_id": "EVT-001",
+    "timestamp": "2026-10-17T09:00:00",
+    "source": "authentication",
+    "event_type": "failed_login",
+    "username": "admin",
+    "src_ip": "192.0.2.10",
+    "host": "server-01",
+    "description": "Failed login attempt"
+  },
+  {
+    "event_id": "EVT-002",
+    "timestamp": "2026-10-17T09:00:10",
+    "source": "authentication",
+    "event_type": "failed_login",
+    "username": "admin",
+    "src_ip": "192.0.2.10",
+    "host": "server-01",
+    "description": "Repeated failed login attempt"
+  },
+  {
+    "event_id": "EVT-003",
+    "timestamp": "2026-10-17T09:00:20",
+    "source": "authentication",
+    "event_type": "failed_login",
+    "username": "admin",
+    "src_ip": "192.0.2.10",
+    "host": "server-01",
+    "description": "Repeated failed login attempt"
+  },
+  {
+    "event_id": "EVT-004",
+    "timestamp": "2026-10-17T09:01:00",
+    "source": "authentication",
+    "event_type": "successful_login",
+    "username": "admin",
+    "src_ip": "192.0.2.10",
+    "host": "server-01",
+    "description": "Successful login after repeated failures"
+  },
+  {
+    "event_id": "EVT-005",
+    "timestamp": "2026-10-17T09:05:00",
+    "source": "endpoint",
+    "event_type": "suspicious_process",
+    "username": "user01",
+    "src_ip": "198.51.100.20",
+    "host": "workstation-01",
+    "description": "Synthetic suspicious PowerShell activity"
+  },
+  {
+    "event_id": "EVT-006",
+    "timestamp": "2026-10-17T09:10:00",
+    "source": "firewall",
+    "event_type": "blocked_connection",
+    "username": "unknown",
+    "src_ip": "203.0.113.50",
+    "host": "server-02",
+    "description": "Outbound connection blocked by firewall"
+  },
+  {
+    "event_id": "EVT-007",
+    "timestamp": "2026-10-17T09:15:00",
+    "source": "authentication",
+    "event_type": "successful_login",
+    "username": "analyst",
+    "src_ip": "192.0.2.25",
+    "host": "server-01",
+    "description": "Normal successful login"
+  }
+]
