@@ -1,5 +1,8 @@
 AI SOC Detection & Incident Response Platform
 
+LIVE DEMO :
+https://ai-soc-detection-incident-response-vaibhav-official-nej2954kuvr.streamlit.app/
+
 A Python-based Security Operations Center (SOC) prototype for analyzing security events, assigning risk scores, and supporting incident investigation through an interactive dashboard.
 
 Features
